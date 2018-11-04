@@ -1,0 +1,27 @@
+[color]
+	ui = auto
+
+[alias]
+	wd = diff --color --word-diff=color
+	st = status -sb
+	who = shortlog -sne
+	changes = diff --name-status
+	d = diff
+	dic = diff --cached
+	ds = diff --staged
+	diffstat = diff --stat
+	b = branch -vv
+	co = checkout
+	undo-commit = reset --soft HEAD~1
+	last = log -1 HEAD
+
+[user]
+	name = Laurent Fallet
+	email = laurent.fallet@gmail.com
+
+[push]
+	default = tracking
+
+[core]
+	editor = vim
+
